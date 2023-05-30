@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #041C32;
+    display: grid;
+    place-items: center;
+    font-family: 'Chalkduster', 'cursive';
+}
+
+#inputdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showScore {
+    text-align: center;
+}
+
+#inputBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+h1 {
+    margin: 50px 0 50px 0;
+    font-size: 5rem;
+    color: #ECB365;
+}
+
+h3 {
+    margin: 50px 0 50px 0;
+    font-size: 1.5rem;
+    color: #ECB365;
+}
+
+h3 > .top {
+    color: green;
+}
+
+h3 > .bottom {
+    color: red;
+}
+
+input {
+    color: #ECB365;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-family: 'Chalkduster', 'cursive';
+    background-color: #064663;
+}
+
+input::placeholder {
+    color: #ECB365;
+    font-family: 'Chalkduster', 'cursive';
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 2rem;
+    color: #ECB365;
+}
+
+button {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#submit {
+    font-size: 1.5rem;
+    color: #ECB365;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #064663;
+    font-family: 'Chalkduster', 'cursive';
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0px 4px 0px #888;
+    cursor: pointer;
+  }
+#rock {
+    background-image: url('./assets/rock.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#scissors {
+    background-image: url('./assets/scissors.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#paper {
+    background-image: url('./assets/paper.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#prechild {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+#myImage {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid rgb(122, 105, 105);
+    background-color: rgb(241, 241, 241);
+    justify-items: center;
+}
+
+#playAgain {
+    font-size: 1.5rem;
+    color: #ECB365;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #064663;
+    font-family: 'Chalkduster', 'cursive';
+}
+
+#replay {
+    text-align: center;
+}
+
+#choose {
+    text-align: center;
+    color: bisque;
+    font-size: 3rem;
+}
